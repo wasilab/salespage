@@ -3,7 +3,7 @@ import Swal from "sweetalert2";
 import { SEOHead } from '../utility/components/SEOHead';
 import { Box } from "@mui/material";
 import { GrowthFlywheel } from "./GrowthFlywheel";
-import wpQrCode from "../assets/wp_qr_code.png";
+import wpQrCode from "../assets/wp_qr_code.svg";
 import {
   ClipboardList, FileText, ShieldCheck, Lock,
   Target, Building2, BarChart2,
