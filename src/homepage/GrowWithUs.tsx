@@ -1178,7 +1178,7 @@ export const GrowWithUs = () => {
 
       <header className="gwu-header">
         <div className="gwu-brand" onClick={() => goTo("overview")} style={{ cursor: "pointer" }}>
-          <img src="/xploreto.png" alt="Xploreto" />
+          <img src="/xploreto.svg" alt="Xploreto" />
           <span>Xploreto.com</span>
         </div>
         <nav className="gwu-nav" aria-label="Section navigation">
