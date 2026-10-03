@@ -1089,13 +1089,9 @@ export const GrowWithUs = () => {
       link.href = "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap";
       document.head.appendChild(link);
     }
-    const prevTitle = document.title;
-    document.title = "Grow With Xploreto";
-
     const prevBodyOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
     return () => {
-      document.title = prevTitle;
       document.body.style.overflow = prevBodyOverflow;
     };
   }, []);
