@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState, type CSSProperties, type FormEvent, type ReactNode } from "react";
 import Swal from "sweetalert2";
+import { Link } from "react-router-dom";
 import { SEOHead } from '../utility/components/SEOHead';
 import { Box } from "@mui/material";
 import { GrowthFlywheel } from "./GrowthFlywheel";
@@ -1848,7 +1849,15 @@ export const GrowWithUs = () => {
               style={{ color: "var(--accent-hover)", textDecoration: "none" }}
             >
               Docs
-            </a>
+            </a>{" "}
+            |{" "}
+            <Link to="/privacy" style={{ color: "var(--accent-hover)", textDecoration: "none" }}>
+              Privacy
+            </Link>{" "}
+            |{" "}
+            <Link to="/terms" style={{ color: "var(--accent-hover)", textDecoration: "none" }}>
+              Terms
+            </Link>
           </div>
         </section>
       </div>
